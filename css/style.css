@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+    font-family: 'Lora', 'serif';
+}
+
+header {
+    background-color: #008489;
+    height: 66px;
+}
+
+header * {
+    color: white;
+}
+
+header.logo {
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+    border: 1px solid red;
+}
+
+header .logo-text {
+    margin: 9px;
+    font-family: 'Candal', serif;
+}
+
+header .logo-text span {
+    color: #008489;
+}
+
+header ul {
+    float: right;
+}
+
+header .menu-toggle {
+    display: none;
+}
