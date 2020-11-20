@@ -1,3 +1,41 @@
-body {
+* {
     margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #00778D;
+    /* height: 66px; */
+    display: block;
+}
+
+header div {
+    float: left;
+    height: 100%;
+    width: 250px;
+    background-color: yellow;
+    margin-left: 5%;
+}
+
+header ul {
+    float: right;
+    height: 100%;
+    margin-right: 5%;
+    list-style-type: none;
+}
+
+header ul li {
+    width: 130px;
+    height: 100%;
+    background-color: tomato;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+}
+
+header ul li a {
+    color: white;
+    padding: 40px;
+    background-color: black;
 }
