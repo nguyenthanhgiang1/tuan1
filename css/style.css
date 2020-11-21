@@ -230,7 +230,7 @@ a {
 .content .sidebar {
     width: 30%;
     float: left;
-    border: 1px dashed green;
+    /* border: 1px dashed green; */
     height: 300px;
 }
 
@@ -251,4 +251,54 @@ a {
 .btn:hover {
     color: white !important;
     background-color: turquoise;
+}
+
+
+/* video 6 */
+
+.content .sidebar .section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content .sidebar .section .section-title {
+    margin: 10px 0;
+}
+
+.content .sidebar .section.search {
+    margin-top: 80px;
+}
+
+.text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    font-size: 1.5em;
+    outline: none;
+    color: #00778D;
+    line-height: 1.5rem;
+    font-family: 'Lore', serif;
+}
+
+.content .sidebar .section.toppics ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.content .sidebar .section.toppics ul li a {
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    padding: 15px 0px;
+    transition: all 0.3s;
+}
+
+.content .sidebar .section.toppics ul li a:hover {
+    padding-left: 10px;
+    transition: all 0.3s;
 }
