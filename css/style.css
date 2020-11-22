@@ -400,6 +400,8 @@ a {
 
 .footer .footer-content .contact-form .contact-btn {
     float: right;
+    font-size: 1.1em;
+    font-family: 'Lora', serif;
 }
 
 .page-wrapper {
@@ -409,4 +411,38 @@ a {
 .btn-big {
     padding: .7rem 1.3rem;
     line-height: 1.3rem;
+}
+
+
+/* tieptuc */
+
+.content .main-content.single {
+    background-color: white;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.content .main-content.single .post-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content .sidebar.single {
+    padding: 0px 10px;
+}
+
+.content .popular .post {
+    /* border-top: 1px solid gray; */
+    /* border-bottom: 1px solid #e0e0e0; */
+    border-top: 1px solid #e0e0e0;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.content .popular .post img {
+    height: 60px;
+    width: 75px;
+    float: left;
+    margin-right: 10px;
 }
