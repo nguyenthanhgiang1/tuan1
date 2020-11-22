@@ -4,7 +4,9 @@
     font-family: sans-serif;
 }
 
+html,
 body {
+    height: 100%;
     background-color: #F4F2F4;
 }
 
@@ -301,4 +303,35 @@ a {
 .content .sidebar .section.toppics ul li a:hover {
     padding-left: 10px;
     transition: all 0.3s;
+}
+
+
+/* video thu 7 */
+
+.footer {
+    background: gray;
+    color: white;
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-content {
+    border: 1px solid red;
+    height: 350px;
+}
+
+.footer .footer-bottom {
+    width: 100%;
+    background-color: black;
+    color: blueviolet;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+.page-wrapper {
+    min-height: 100%;
 }
