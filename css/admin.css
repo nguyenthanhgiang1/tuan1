@@ -1,0 +1,22 @@
+header {
+    background-color: #0A232A;
+    height: 66px;
+}
+
+.admin-wrapper {
+    display: flex;
+    width: calc(100% - 66px);
+    border: 1px solid blue;
+}
+
+.admin-wrapper .left-sidebar {
+    flex: 2;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.admin-wrapper .admin-content {
+    flex: 8;
+    height: 100%;
+    border: 1px solid green;
+}
