@@ -52,7 +52,7 @@ header ul {
 table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 th,
@@ -78,4 +78,8 @@ td {
 .delete:hover,
 .publish:hover {
     text-decoration: underline;
+}
+
+form div {
+    margin-bottom: 15px;
 }

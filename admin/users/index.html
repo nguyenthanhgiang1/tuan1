@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/admin.css">
+    <title>Admin Section - Manage Users</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><span>Awa</span>Inspires</h1>
+        </div>
+        <ul>
+            <li>
+                <a href="#"><i class="glyphicon glyphicon-user" id="user"></i>Awa Melvine <i class="fa fa-caret-down" id="down"></i></a>
+                <ul>
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <div class="admin-wrapper">
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="../posts/index.html">Manage Posts</a></li>
+                <li><a href="index.html">Manage Users</a></li>
+                <li><a href="../topics/index.html">Manage Topics</a></li>
+            </ul>
+        </div>
+        <div class="admin-content">
+            <div class="button-group">
+                <a href="create.html" class="btn bnt-big">Add User</a>
+                <a href="index.html" class="btn bnt-big">Manage Users</a>
+            </div>
+
+            <div class="content">
+                <h2 class="page-title">Manage Users</h2>
+                <table>
+                    <thead>
+                        <th>SN</th>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th colspan="2">Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Awa</td>
+                            <td>Admin</td>
+                            <td>
+                                <a href="#" class="edit">edit</a></td>
+                            <td>
+                                <a href="#" class="delete">delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Melvine</td>
+                            <td>Author</td>
+                            <td>
+                                <a href="#" class="edit">edit</a></td>
+                            <td>
+                                <a href="#" class="delete">delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- nheiu anh truoi -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../../js/scripts.js"></script>
+</body>
+
+</html>
